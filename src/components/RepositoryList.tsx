@@ -11,9 +11,9 @@ export function RepositoryList() {
     }, [])
 
     return (
-        <section className="repository-list m-1 text-gray-900 flex flex-col h-screen">
+        <section className="repository-list text-gray-900 flex flex-col h-screen">
             <h1 className="text-4xl font-bold m-auto text-gray-700">Repository List</h1>
-            <ul className="m-auto bg-white text-gray-600 p-10 rounded-lg shadow-sm">
+            <ul className="m-auto bg-white text-gray-600 p-16 rounded-lg shadow-sm">
                 {
                     Object.entries(repositories).map(([key, repository]) => (
                         <RepositoryItem key={key} repository={repository} />
