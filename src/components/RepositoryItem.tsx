@@ -1,4 +1,10 @@
-export function RepositoryItem(props) {
+interface propsPropriety {
+    name: string;
+    description: string;
+    html_url: string;
+}
+
+export function RepositoryItem(props: any) {
     return (
         <li className="my-6">
             <strong className="text-3xl font-bold">{props.repository.name}</strong>
@@ -9,8 +15,8 @@ export function RepositoryItem(props) {
             </a>
 
 
-            <div class="py-4">
-                <div class="w-full border-t border-gray-300"></div>
+            <div className="py-4">
+                <div className="w-full border-t border-gray-300"></div>
             </div>
 
         </li>
