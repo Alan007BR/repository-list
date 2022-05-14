@@ -1,8 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 body {
+    font-family: 'Roboto', sans-serif;
     background: rgb(180, 255, 233);
     background: linear-gradient(90deg, rgba(180, 255, 233, 1) 0%, rgba(184, 186, 238, 1) 100%);
 }
