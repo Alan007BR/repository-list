@@ -1,10 +1,14 @@
-interface propsPropriety {
-    name: string;
-    description: string;
-    html_url: string;
+interface PropsPropriety {
+    repository: {
+        name: string;
+        description: string;
+        html_url: string;
+        language: string;
+        full_name: string;
+    }
 }
 
-export function RepositoryItem(props: any) {
+export function RepositoryItem(props: PropsPropriety) {
     return (
         <li className="m-6">
             <div className="flex flex-row justify-between">

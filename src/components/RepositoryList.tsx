@@ -16,7 +16,7 @@ export function RepositoryList() {
             <ul className="m-auto bg-white text-gray-600 p-10 rounded-lg shadow-sm">
                 {
                     Object.entries(repositories).map(([key, repository]) => (
-                        <RepositoryItem key={key} repository={repository} />
+                        <RepositoryItem key={key.name} repository={repository} />
                     ))
                     // repositories.map(repository => {
                     //     return <RepositoryItem key={repository.name} repository={repository} />
