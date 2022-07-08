@@ -9,8 +9,7 @@
 ## 🚀 View
 
 Website:
-```
+
 https://repository-list-gray.vercel.app/
-```
 
 
