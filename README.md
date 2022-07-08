@@ -6,7 +6,7 @@
 
 > A simple project to see my list of repositories, the goal is to work with API calls in reactjs.
 
-## 🚀 View <nome_do_projeto>
+## 🚀 View
 
 Website:
 ```
